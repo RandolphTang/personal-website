@@ -505,6 +505,13 @@
     .Intro-detailed-info {
         height: auto;
     }
+
+    .Intro-profession-experience-info-title h3 {
+        font-size: 10vw;
+        margin: 0;
+        text-align: center;
+    }
+
     .Intro-detailed-technical-info {
         display: none;
     }
@@ -524,6 +531,12 @@
 
     .Intro-tech-orbit-info {
         display: none;
+    }
+
+    .Intro-basic-info-navigation {
+        display: flex;
+        justify-content: space-around;
+        gap: 0.5rem;
     }
 
 }
