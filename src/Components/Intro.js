@@ -69,7 +69,7 @@ function IntroPage() {
         <div className={`Intro-page ${isFunMode ? 'fun-mode' : ''}`}>
             <div className="Intro-basic-info">
                 <div className="Intro-basic-info-content">
-                    <img className="profile-image" src="/profile.jpg" alt="profile pic" onClick={toggleFunMode}/>
+                    <img className="profile-image" src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="profile pic" onClick={toggleFunMode}/>
                     <h1>Randolph Jenkins</h1>
                     <h3>Software Engineer</h3>
                     <a href="https://www.washington.edu/" target="_blank" rel="noopener noreferrer"
