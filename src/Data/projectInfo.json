@@ -4,7 +4,7 @@
     "stacks": ["Java 17", "Spring Boot 3.0", "Spring Cloud", "React.js", "PostgreSQL"],
     "description": "Architected and developed a full-stack Mentorship Platform using microservice architecture. Implemented core services (Profile, Mentorship, Authentication) with Spring Cloud Netflix Eureka for service discovery and Spring Cloud Gateway for routing. Designed RESTful APIs, achieving 30% faster response times. Implemented role-based access control, integrated Google Cloud Storage for profile management, and used Apache Kafka for inter-service communication. Enhanced security with a dual-token system, reducing unauthorized access by 40%.",
     "summary": "Full-stack Microservice Web Application",
-    "imageUrl": "/mentorshipProject.png",
+    "imageUrl": "mentorshipProject.png",
     "githubLink": "https://github.com/RandolphTang/MentorshipManagement.git"
   },
   {
@@ -12,7 +12,7 @@
     "stacks": ["Spring Boot", "Docker", "Jenkins", "AWS EC2", "Swagger", "bucket4j"],
     "description": "Developed a Spring Boot-based Ride-Sharing Service API with rate limiting using bucket4j and RESTful endpoints for fare calculation. Integrated Google Distance Matrix API for accurate estimates. Implemented comprehensive unit and integration testing, and containerized the application using Docker. Created a companion client library with input validation, error responses, and Swagger documentation, reducing client integration time by an estimated 40%. Established a CI/CD pipeline using Jenkins on AWS EC2 with GitHub webhooks for seamless deployment and version control.",
     "summary": "Ride-sharing API Design",
-    "imageUrl": "/ride-sharingAPI.png",
+    "imageUrl": "ride-sharingAPI.png",
     "githubLink": "https://github.com/RandolphTang/Ride-Sharing_API"
   },
   {
@@ -20,7 +20,7 @@
     "stacks": ["Python", "BeautifulSoup", "Pandas", "discord.py", "Multi-threading"],
     "description": "Engineered an automated Python-based web scraping solution using BeautifulSoup and Pandas, integrated with a Discord bot using discord.py. Implemented multi-threading for improved performance and comprehensive error handling to ensure robustness.",
     "summary": "Discord web scraping bot",
-    "imageUrl": "/pythonJobBot.png",
+    "imageUrl": "pythonJobBot.png",
     "githubLink": "https://github.com/RandolphTang/Discord_Job_Feed_Bot"
   },
   {
@@ -28,7 +28,7 @@
     "stacks": ["React", "CSS", "HTML", "Firebase"],
     "description": "NutriGenius is a comprehensive web application for nutrition management and health education. It utilizes Firebase for OAuth authentication and data storage, allowing users to create personalized profiles. The app features a food database (sourced from Kaggle) that users can filter to view nutritional information. Users can add foods to custom meals, which are saved to their profiles. The app also includes interactive health quizzes using pre-loaded JSON data.",
     "summary": "Interactive Web Application",
-    "imageUrl": "/nutrigeniusApp.png",
+    "imageUrl": "nutrigeniusApp.png",
     "link": "https://nutrigenius-e3752.web.app/",
     "githubLink": "https://github.com/RandolphTang/NutriGenius"
   },
@@ -37,7 +37,7 @@
     "stacks": ["React", "CSS", "HTML", "Firebase"],
     "description": "Website for the Software Engineering Career Club (SWECC) at the University of Washington. The website is built with React and deployed on Firebase. I designed the website with a mobile-first approach, ensuring the website is responsive on all devices. I also implemented a dark mode feature to improve the user experience.",
     "summary": "Web Design",
-    "imageUrl": "/swecc-website.png",
+    "imageUrl": "swecc-website.png",
     "link": "https://swecc.org/",
     "githubLink": "https://github.com/swecc-uw/swecc-website"
   },
@@ -54,7 +54,7 @@
     "stacks": ["R", "Shiny", "plotly", "Data Analysis"],
     "description": "Developed an interactive R Shiny application for the Info 201 Final Project to analyze the correlation between university types and post-graduation income. The project uses datasets containing information on 269 colleges, including income situations and school types. Key features include interactive visualizations of starting salaries, mid-career salaries, and salary growth across different college types, with a focus on comparing Ivy League schools to others.",
     "summary": "Interactive R Data Analysis",
-    "imageUrl": "/IvyMoney.png",
+    "imageUrl": "IvyMoney.png",
     "githubLink": "https://github.com/RandolphTang/Ivy-money"
   }
 ]
