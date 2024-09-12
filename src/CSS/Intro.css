@@ -501,9 +501,12 @@
 }
 
 @media (max-width: 768px) {
-    .Intro-skill-info {
-        flex-direction: column;
+
+    .Intro-detailed-info {
         height: auto;
+    }
+    .Intro-detailed-technical-info {
+        display: none;
     }
 
     .Intro-skill-info-section-br-line {
@@ -516,16 +519,29 @@
 @media (max-width: 768px) {
     .projects-container {
         grid-template-columns: 1fr;
+        width: 100vw;
     }
 
     .Intro-tech-orbit-info {
         display: none;
     }
+
 }
 
 @media (max-width: 768px) {
     .Intro-contact-info {
         width: 90%;
+    }
+
+    .profile-image {
+        border-radius: 50%;
+        width:50vw;
+        height: 50vw;
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    }
+
+    .Intro-basic-info-content {
+        font-size: 5vw;
     }
 }
 
