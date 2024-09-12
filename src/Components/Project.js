@@ -5,7 +5,7 @@ import '../CSS/ProjectCard.css'
 const ProjectCard = ({ name, link, githubLink, stacks, description, summary, imageUrl }) => {
     return (
         <div className="project-container">
-            <img className="project-image" src={imageUrl} alt={name}/>
+            <img className="project-image" src={`${process.env.PUBLIC_URL}/${imageUrl}`} alt={name}/>
             <div className="project-information">
                 <div className="project-information-name-link">
                     <h2>{name}</h2>
