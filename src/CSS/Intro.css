@@ -451,7 +451,11 @@
     to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .Intro-profession-experience-info {
+        flex-direction: column;
+    }
+
     .Intro-page {
         flex-direction: column;
     }
@@ -464,7 +468,23 @@
     .Intro-detailed-info {
         margin-left: 0;
     }
+
 }
+
+/*@media (max-width: 768px) {*/
+/*    .Intro-page {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .Intro-basic-info {*/
+/*        position: static;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .Intro-detailed-info {*/
+/*        margin-left: 0;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 768px) {
     .Intro-about-me-info h3 {
@@ -496,6 +516,10 @@
 @media (max-width: 768px) {
     .projects-container {
         grid-template-columns: 1fr;
+    }
+
+    .Intro-tech-orbit-info {
+        display: none;
     }
 }
 

@@ -19,7 +19,7 @@ function IntroPage() {
 
     const [isFunMode, setIsFunMode] = useState(false);
 
-    const audioRef = useRef(new Audio('badRomance.MP3'));
+    const audioRef = useRef(new Audio(`${process.env.PUBLIC_URL}/badRomance.MP3`));
 
     const handleChange = (e) => {
         const { name, value } = e.target;
