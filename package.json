@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "set PUBLIC_URL=https://RandolphTang.github.io/personal-website npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -43,5 +43,5 @@
     "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1"
   },
-  "homepage": "."
+  "homepage": "https://randolphtang.github.io/personal-website"
 }
